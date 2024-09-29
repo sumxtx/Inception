@@ -7,10 +7,10 @@ The whole project has to be done in a virtual machine._
 
 ## Index
 #### Mandatory Part
-* [Rules](https://github.com/sumxtx/Inception/blob/main/README.md#rules)
-* [Requirements](https://github.com/sumxtx/Inception/blob/main/README.md#requirements)
-* [Further Considerations](https://github.com/sumxtx/Inception/blob/main/README.md#further-considerations)
-* [Resources](https://github.com/sumxtx/Inception/blob/main/README.md#resource)
+* [Rules](https://github.com/sumxtx/Inception?tab=readme-ov-file#rules)
+* [Requirements](https://github.com/sumxtx/Inception?tab=readme-ov-file#requirements)
+* [Further Considerations](https://github.com/sumxtx/Inception?tab=readme-ov-file#further-considerations)
+* [Resources](https://github.com/sumxtx/Inception?tab=readme-ov-file#resources)
 <br>
 
 ## Rules 
