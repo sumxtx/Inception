@@ -49,4 +49,11 @@ This domain name must be login.42.fr. Again, you have to use your own login.
 For example, if your login is wil, wil.42.fr will redirect to the IP address pointing to wil’s website.  
 
 > Your volumes will be available in the /home/login/data folder of the host machine using Docker.  
-Of course, you have to replace the login with yours.  
+Of course, you have to replace the login with yours.
+
+> Using network:, host, or --link, or links:, is forbidden.  
+The network line must be present in your docker-compose.yml file.
+ 
+> Your containers musn’t be started with a command running an infinite loop.  
+This also applies to any command used as entrypoint, or used in entrypoint scripts.  
+The following are a few prohibited hacky patches: tail -f, bash, sleep infinity, while true.
