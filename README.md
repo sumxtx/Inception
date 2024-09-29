@@ -36,4 +36,17 @@ Here is an example diagram of the expected result:
 <img src="https://github.com/sumxtx/Inception/blob/main/assets/2024-09-28_19-34.png" width="100%" height="50%" position="center">
 </p>
 
+## Further Considerations
+- - - -
+> Docker container is not a virtual machine.  
+It is not recommended to use any hacky patch based on ’tail -f’ and so forth when trying to run it.  
+Read about how daemons work and whether it’s a good idea to use them or not
 
+> Read about PID 1 and the best practices for writing Dockerfiles.
+
+> To make things simpler, you have to configure your domain name so it points to your local IP address.  
+This domain name must be login.42.fr. Again, you have to use your own login.  
+For example, if your login is wil, wil.42.fr will redirect to the IP address pointing to wil’s website.  
+
+> Your volumes will be available in the /home/login/data folder of the host machine using Docker.  
+Of course, you have to replace the login with yours.  
