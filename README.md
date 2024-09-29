@@ -36,6 +36,7 @@ As well as using services such as DockerHub
 • A docker-network that establishes the connection between your containers.  
 - - - - 
 Here is an example diagram of the expected result:  
+
 <img src="https://github.com/sumxtx/Inception/blob/main/assets/2024-09-28_19-34.png" width="100%" height="50%" position="center">
 <br>
 
@@ -65,8 +66,8 @@ The following are a few prohibited hacky patches: tail -f, bash, sleep infinity,
 * [Docker Tutorial For Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 * [Ultimate Docker Compose Tutorial](https://www.youtube.com/watch?v=SXwC9fSwct8)
 * [Docker Networking by NetworkChuck](https://www.youtube.com/watch?v=bKFMS5C4CG0)
-* [Alpine on Docker](https://hub.docker.com/_/alpine)
-* [Nginx on Alpine](https://wiki.alpinelinux.org/wiki/Nginx)
+* [Docker on Alpine](https://wiki.alpinelinux.org/wiki/Docker)
+* [Nginx on Docker](https://www.baeldung.com/linux/nginx-docker-container#bd-3-configuration-file)
 * [Begginer's Guide to Nginx](http://nginx.org/en/docs/beginners_guide.html)
 * [Configuring HTTPS Servers in Nginx](https://nginx.org/en/docs/http/configuring_https_servers.html)
 * [How to create & sign SSL/TLS certificates](https://dev.to/techschoolguru/how-to-create-sign-ssl-tls-certificates-2aai)
